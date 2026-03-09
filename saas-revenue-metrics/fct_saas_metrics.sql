@@ -7,7 +7,7 @@ WITH revenue AS (
             PARTITION BY customer_id
             ORDER BY month_start
         ) AS prior_month_mrr
-    FROM customer_monthly_revenue
+    FROM int_customer_monthly_revenue
 )
 SELECT
     month_start,
