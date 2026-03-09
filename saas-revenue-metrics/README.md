@@ -1,18 +1,26 @@
 # SaaS Revenue Metrics Framework
 
-This project demonstrates how subscription data can be transformed into SaaS revenue metrics used by finance and executive teams.
+This project demonstrates how subscription-level data can be transformed into SaaS revenue metrics used for finance, board, and executive reporting.
 
-## Metrics included:
+## Business Use Case
+Companies need a reliable way to understand recurring revenue movements across customers and time periods. This project models customer revenue by month and classifies revenue movement into key SaaS categories.
 
-- MRR (Monthly Recurring Revenue)
-- ARR (Annual Recurring Revenue)
+## Metrics Included
+- MRR
+- ARR
 - New Revenue
+- Churn Revenue
 - Expansion Revenue
 - Contraction Revenue
-- Churn Revenue
+- Retention Framework Inputs
 
 ## Files
-
 - `stg_subscriptions.sql`
-- `customer_monthly_revenue.sql`
+- `int_customer_monthly_revenue.sql`
 - `fct_saas_metrics.sql`
+
+## What This Demonstrates
+- subscription standardization
+- recurring revenue logic
+- month-over-month revenue movement analysis
+- finance-ready metric design
