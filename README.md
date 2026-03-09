@@ -2,57 +2,58 @@
 
 Hi, I'm **Lakshmisri Surya**, a Senior Analytics Engineer / Data Lead with 12+ years of experience building enterprise data platforms, analytics models, and business intelligence solutions.
 
-This repository showcases portfolio projects demonstrating how I design scalable data models, revenue analytics frameworks, and dashboard-ready datasets for leadership and operational reporting.
+This repository showcases portfolio projects that demonstrate my approach to:
+- analytics engineering
+- data modeling
+- revenue and finance analytics
+- cross-system reconciliation
+- product usage analytics
+- executive reporting
+
+These are sanitized portfolio examples created to reflect the type of business and technical problems I solve in real-world environments.
 
 ## Portfolio Projects
 
-### SaaS Revenue Metrics
+### 1. SaaS Revenue Metrics
 Framework for calculating:
-
 - MRR
 - ARR
+- GRR
+- NRR
 - Churn
 - Expansion
 - Contraction
-- GRR
-- NRR
 
-### Sales to Billing Reconciliation
-Detects mismatches between:
+### 2. Sales to Billing Reconciliation
+Cross-system matching between:
+- CRM opportunities
+- contracts
+- invoices
 
-- CRM Closed Deals
-- Contracts
-- Invoices
+Used to identify mismatches and process gaps between sales, finance, and billing systems.
 
-Helps finance and rev ops teams identify process gaps.
+### 3. Product Usage Analytics
+Transforms product event data into:
+- daily active users
+- feature adoption
+- engagement trends
+- account-level usage metrics
 
-### Product Usage Analytics
-Models product event data to generate:
-
-- Daily active users
-- Feature adoption
-- Usage trends
-- Customer engagement metrics
-
-### Finance KPI & Collections Analytics
+### 4. Finance KPI & Collections Analytics
 Tracks:
+- invoice balances
+- payment trends
+- overdue accounts
+- collection performance
 
-- Invoice balances
-- Payment timelines
-- Overdue accounts
-- Collection performance
+### 5. Executive Dashboard Data Mart
+Builds a KPI-ready layer for leadership dashboards combining:
+- customer data
+- bookings
+- revenue
+- usage
 
-### Executive Dashboard Data Mart
-Unified KPI layer combining:
-
-- Customer data
-- Bookings
-- Revenue
-- Product usage
-
-Designed to support executive dashboards and strategic reporting.
-
-## Technologies Used
+## Tools & Technologies
 
 - SQL
 - Python
@@ -62,20 +63,24 @@ Designed to support executive dashboards and strategic reporting.
 - Domo
 - Tableau
 - Power BI
+- Salesforce
+- NetSuite
+- Intacct
 
-## Purpose of This Repository
+## Why This Repository
 
-This repository demonstrates my approach to:
+This portfolio is intended to demonstrate:
+- strong business-facing analytics thinking
+- scalable data modeling design
+- dashboard-ready data engineering
+- enterprise reporting architecture
+- cross-functional analytical problem solving
 
-- Data modeling
-- Analytics engineering
-- Revenue analytics
-- Business intelligence design
-- Cross-system data reconciliation
+## Important Note
 
-All projects here are **sanitized examples created for portfolio purposes only.**
+All projects in this repository are **sanitized examples** created for portfolio purposes only and do not contain confidential production code or proprietary company information.
 
 ## Connect With Me
 
-LinkedIn  
-https://www.linkedin.com/in/lakshmi-s-1395a6126/
+**LinkedIn**  
+[https://www.linkedin.com/in/lakshmi-s-1395a6126/](https://www.linkedin.com/in/lakshmi-s-1395a6126/)
