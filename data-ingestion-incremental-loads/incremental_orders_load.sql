@@ -15,6 +15,29 @@ changed_records AS (
     FROM stg_source_orders s
     CROSS JOIN last_watermark w
     WHERE s.source_updated_at > w.max_loaded_timestamp
+),
+deduplicated_records AS (
+    SELECT
+        order_id,
+        customer_id,
+        order_date,
+        order_status,
+        total_amount,
+        source_updated_at,
+        loaded_at,
+        ROW_NUMBER() OVER (
+            PARTITION BY order_id
+            ORDER BY source_updated_at DESC, loaded_at DESC
+        ) AS rn
+    FROM changed_records
 )
-SELECT *
-FROM changed_records
+SELECT
+    order_id,
+    customer_id,
+    order_date,
+    order_status,
+    total_amount,
+    source_updated_at,
+    loaded_at
+FROM deduplicated_records
+WHERE rn = 1
