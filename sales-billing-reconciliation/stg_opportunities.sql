@@ -6,4 +6,4 @@ SELECT
     amount AS closed_won_amount,
     stage_name
 FROM crm_opportunities
-WHERE stage_name = 'Closed Won'
+WHERE UPPER(TRIM(stage_name)) = 'CLOSED WON'
