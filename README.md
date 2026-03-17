@@ -1,7 +1,5 @@
 # Data Analytics & Business Intelligence Portfolio
 
-Hi, I'm **Lakshmisri Surya**, a Senior Analytics Engineer / Data Lead with 12+ years of experience building enterprise data platforms, analytics models, and business intelligence solutions.
-
 This repository showcases portfolio projects that demonstrate my approach to:
 - analytics engineering
 - data modeling
